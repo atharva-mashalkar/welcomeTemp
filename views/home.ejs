@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!-- head ---------------------------- -->
+	   <%- include('./common/head') -%> 
+	<!-- head closed --------------------- --> 
+
+</head>
+<body style="background: #FFE8DF!important">
+	<div class="homebody">
+	<!-- Message -------------------------- -->
+    <%- include('./common/message') -%>
+    <!-- Message ends --------------------- -->
+
+	<div class="jumbotron jumbotron-fluid note">
+	  	<div class="container title" style="font-family: 'Lobster', cursive;">
+	    	<h3 class="display-4">Please provide us your Email address </h3>
+	    	<h3 class="display-4">so that we can mail your upcoming events</h3>
+	  	</div>
+	</div>
+	<div class ='formdiv'>
+	<div class="formitemdiv">
+	<form action = "/" method="POST" autocomplete="off" >
+	    <div class="form-group">
+    		<input type="search" style="box-shadow: .5em .5em .5em .5em #493933;color:#391C11" name="Email" class="form-control searchinp" id="myTextInput"  placeholder="Email Id" value="<%= typeof Email != 'undefined' ? Email : '' %>" >
+	  		<button type="submit" class="btn btn-primary" style="display: none">Submit</button>
+	  	</div>
+	</form>
+	</div>
+	<div class="searchicondiv">
+    		 <i class="fas fa-search"></i>
+    </div>
+	</div>
+	<div class="jumbotron jumbotron-fluid note">
+	  	<div class="container title">
+	    	<h4 style="font-family: 'Montserrat', sans-serif;"><span class="verifynote">Note :</span> The above email address will be verified if it is being used for the first time on our website.</h4>
+	  	</div>
+	</div>
+
+	<!-- Bootstrap script tags ------------------------ -->
+	   <%- include('./common/bootstrapScript') -%> 
+	<!-- Bootstrap script tags closed ----------------- --> </div>
+	<script>
+		var input = document.getElementById('myTextInput');
+		input.focus();
+		input.select();
+	</script>
+</body>
+</html>

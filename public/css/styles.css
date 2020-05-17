@@ -1,0 +1,98 @@
+.homebody{
+	background: #FFE8DF!important
+}
+.jumbotron{
+		background: #FFE8DF!important
+}
+.formdiv{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.formitemdiv{
+	grid-row: 2 / 4;
+	grid-column: 2 / 4;
+}
+
+.formitemdiv2{
+	grid-row: 1 / 4;
+	grid-column: 2 / 4;
+}
+
+
+.searchinp{
+	font-weight: bolder;
+	font-size: 2em;
+	border-radius: 4.8em;
+	text-align: center;
+	padding: 1,2em 1.2em 1.2em 1.2em;
+	color: #694030;
+	box-shadow: 8px 8px 8px 8px #585858;
+
+}
+
+.note{
+	display: grid;
+	grid-template-columns:1fr 4fr 1fr ;
+	grid-gap: 1.5em;
+	font-size: 1.2em;
+	color: #452B20;
+}
+
+.note2{
+	display: grid;
+	grid-template-columns:1fr 4fr 1fr ;
+	grid-gap: 3em;
+	font-size: 1.2em;
+	color: #452B20;
+}
+
+.title{
+	grid-column: 2 / 3;
+}
+
+.searchicondiv{
+	margin-top: 1.15em;
+	margin-left: .9em;
+	grid-row: 2/3;
+	grid-column: 2/3;
+}
+
+.fa-search{
+	font-size: 1.5em;
+}
+
+.verifynote{
+	color: black;
+	text-decoration: underline;
+}
+
+
+.form-control{
+	border: 1px solid #694030
+}
+
+.verifiedButton{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.verify{
+	grid-column: 3/4;
+	grid-row: 3/4;
+	border-color: #846a60; 
+	font-weight:bolder;
+	font-size: 1.2em;
+	border-radius: 1.8em;
+	text-align: center;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	background: #846A60;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.verify:hover{
+	background: #452b20;
+}
