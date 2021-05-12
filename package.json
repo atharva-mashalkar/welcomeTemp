@@ -23,7 +23,7 @@
     "format-json": "^1.0.3",
     "googleapis": "^39.2.0",
     "mongoose": "^5.9.10",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "nodemailer-express-handlebars": "^4.0.0"
   },
   "repository": {
